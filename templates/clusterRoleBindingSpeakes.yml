@@ -11,4 +11,5 @@ roleRef:
 subjects:
 - kind: ServiceAccount
   name: speaker
-  namespace: metallb-system
+  namespace: {{ .Values.namespace }}
+
