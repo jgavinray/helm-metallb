@@ -11,4 +11,5 @@ roleRef:
 subjects:
 - kind: ServiceAccount
   name: controller
-  namespace: {{ .Values.namespace }}
+  namespace: metallb-system
+
