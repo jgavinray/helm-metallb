@@ -48,7 +48,7 @@ spec:
             secretKeyRef:
               name: memberlist
               key: secretkey
-        image: metallb/speaker:v0.9.3
+        image: metallb/speaker:v0.9.5
         imagePullPolicy: Always
         name: speaker
         ports:
